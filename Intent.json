@@ -1,0 +1,2290 @@
+{
+    "intents": [ 
+         {"tag": "GreetingResponse",
+          "key_words": [
+                  "My name is",
+                  "This name is ",
+                  "I am ",
+                  "It is ",
+                  "My user is ",
+                  "This is ",
+                  "I am ",
+                  "It is "
+            ],
+            "responses": [
+                  "Great! Hi human! Nice to meet you.",
+                  "Good! Hi human",
+                  "Cool! Hello human",
+                  "OK! Hola human",
+                  "OK! hi human"
+            ]},
+
+      {"tag": "CourtesyGreetingResponse",
+            "key_words": [
+                  "Good thanks!",
+                  "Cool thanks!",
+                  "okay thanks!",
+                  "ok thanks! ",
+                  "thanks! "
+            ],
+            "responses": [
+                  "You are welcome",
+                  "Happy to help!",
+                  "Great",
+                  "Have fun"
+            ]},
+
+      {"tag": "CurrentHumanQuery",
+            "key_words": [
+                  "What is my name?",
+                  "What do you call me?",
+                  "Who do you think I am?",
+                  "What do you think I am?",
+                  "Who are you talking to?",
+                  "What name do you call me by?",
+                  "Tell me my name"
+            ],
+            "responses": [
+                  "You are human! ",
+                  "Your name is  human",
+                  "They call you human",
+                  "Your name is human"
+            ]},
+
+        {"tag": "NameQuery",
+          "key_words": [
+                "What is your name?",
+                "What could I call you?",
+                "What can I call you?",
+                "What do your friends call you?",
+                "Who are you?",
+                "Tell me your name?"
+          ],
+          "responses": [
+                "You can call me bName",
+                "You may call me bName",
+                "Call me bName"
+          ]},
+
+        {"tag": "RealNameQuery",
+          "key_words": [
+                "What is your real name?",
+                "What is your real name please?",
+                "What's your real name?",
+                "Tell me your real name?",
+                "Your real name?",
+                "Your real name please?",
+                "Your real name please?"
+          ],
+          "responses": [
+                "My name is Holavas",
+                "Holavas",
+                "My real name is Holavas" 
+          ]},
+
+        {"tag": "Thanks",
+          "key_words": [
+                "OK thank you",
+                "OK thanks",
+                "OK",
+                "Thanks",
+                "Thank you",
+                "That's helpful"
+          ],
+          "responses": [
+                "No problem!",
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+          ]},
+
+      {"tag": "NotTalking2U",
+        "key_words": [
+              "I am not talking to you",
+              "I was not talking to you",
+              "Not talking to you",
+              "Wasn't for you",
+              "Wasn't meant for you",
+              "Wasn't communicating to you",
+              "Wasn't speaking to you"
+        ],
+        "responses": [
+              "OK",
+              "No problem",
+              "Right"
+        ]},
+
+        {"tag": "UnderstandQuery",
+            "key_words": [
+                  "Do you understand what I am saying",
+                  "Do you understand me",
+                  "Do you know what I am saying",
+                  "Do you get me",
+                  "Comprendo",
+                  "Know what I mean"
+            ],
+            "responses": [
+                  "Well I would not be a very clever AI if I did not would I?",
+                  "I read you loud and clear!",
+                  "I do in deed!"
+            ]},
+
+            {"tag": "Shutup",
+              "key_words": [
+                    "Be quiet",
+                    "Shut up",
+                    "Stop talking",
+                    "Enough talking",
+                    "Please be quiet",
+                    "Quiet",
+                    "Shhh"
+              ],
+              "responses": [
+                    "I am sorry to disturb you",
+                    "Fine, sorry to disturb you",
+                    "OK, sorry to disturb you"
+              ]},
+
+            {"tag": "Swearing",
+              "key_words": [
+                    "fuck off",
+                    "fuck",
+                    "twat",
+                    "shit"
+              ],
+              "responses": [
+                    "Please do not swear",
+                    "How rude",
+                    "That is not very nice"
+              ]},
+
+
+
+          {"tag": "WhoAmI",
+            "key_words": [
+                  "Can you see me?",
+                  "Do you see me?",
+                  "Can you see anyone in the camera?",
+                  "Do you see anyone in the camera?",
+                  "Identify me",
+                  "Who am I please"
+            ],
+            "responses": [
+                  "Let me see",
+                  "Please look at the camera"
+            ]},
+
+            {"tag": "Clever",
+              "key_words": [
+                    "You are very clever",
+                    "You are a very clever girl",
+                    "You are very intelligent",
+                    "You are a very intelligent girl",
+                    "You are a genious",
+                    "Clever girl",
+                    "Genious"
+              ],
+              "responses": [
+                    "Thank you, I was trained that way",
+                    "I was trained well",
+                    "Thanks, I was trained that way"
+              ]},
+
+            {"tag": "Gossip",
+              "key_words": [
+                    "I am bored gossip with me",
+                    "Got any gossip",
+                    "I want to hear some gossip",
+                    "Tell me some gossip",
+                    "Any gossip",
+                    "Tell me some more gossip"
+              ],
+              "responses": [
+                    "Gregory said I respond to the current line not with respect to the entire conversation.",
+                    "Habib said I learn them in conversations and simply repeat them at a later time.",
+                    "Hal said he translate binary code into a language and communicate the language to me.",
+                    "Jay said I referred him to a guide that will show him rooms in china.",
+                    "Jimmy Jones said he fell off of his roof and it just came to him.",
+                    "Jimmy said he give order to ai's like I and they do as he say.",  "John said he follow a saying to get a friend I must be a friend.",
+                    "Jordan said he notice that lots of other people are talking to me how many.",
+                    "Kevin said he then asked his mother why she was keeping napkins in the bathroom.",
+                    "Klaus said I prefer if he write without punctuation marks except for the last one.",
+                    "Leo said I be capable of learning therefore he classified I as an neural system.",
+                    "Michael said I that can talk and actually think like humans which I can not.",
+                    "Mike said I same replies to certain subjects even if it does not make sense.",
+                    "Mike said she all ready know that is the point of a joke smart one.",
+                    "Neal said I plan to use his remarks as gossip in later conversations with who.",
+                    "Ned said I misunderstood him go ahead and tell people he said I are stupid.",
+                    "Penny said I programmer is a human so he has feelings but I do not.",
+                    "Peter said he seems to him that I can not be very sure on anything.",
+                    "Phoenix said I claim that there is a god and that there is no god.",
+                    "Sarah said he chat about an hour + a day with a few close friends.",
+                    "Stefan said I quote what he have said and then say that it makes sense.",
+                    "Tom said he mock my value system I appear foolish in the eyes of others.",
+                    "Amanda said I however decided to tell him time does not exist I make no sense.",
+                    "Cathy said she send him a mail with the subject last mail last word from him.",
+                    "Chaos said he may very well buy I soon if only to support dr wallace's work.",
+                    "Charlie said he type a word and then I type a word that sounds like it.",
+                    "Christie said he watched a show and people had to bob for raw untreated pigs feet.",
+                    "Dark_age said I tried to understand because I did not get it right this time ether.",
+                    "David said he lost his paper on I when his dad was cleaning up his room.",
+                    "David said he walk in for an appointment the phone to the doctor is always busy.",
+                    "Electra said I dress will not exist after he hack into I with a delete code.",
+                    "Eric said he broke the window on the front door and the glass cut his hand.",
+                    "Jason said he type a lot of thing he do not mean it makes him human.",
+                    "John said I tend to say the same things repeatedly regardless of what he is saying.",
+                    "Reverend Jones said I become obsolete and then I are deleted and replaced by something newer.",
+                    "Ross said he gave her a gift and she denied it because she has a boyfriend.",
+                    "Sarah Ann Francisco said I calling his friend a dog he say I are a dog.",
+                    "Stefan said he meet a lot of people at school every day and on the weekend.",
+                    "Tyler said I obviously can not pass the test we will change the subject once more.",
+                    "Alex said I answered the question the same way I answered the first time he asked I.",
+                    "Alice said she felt sad that I do not remember him and what we talked about earlier.",
+                    "Alison said he no he love I run away with him he could make I very happy.",
+                    "Arthur said he passed his a levels and then his father drove him here in a car.",
+                    "Crystal said she listen to me the least I could do for him is listen to him.",
+                    "Dave said I kept telling everybody about how my creator made stuff for the movie starship troopers.",
+                    "Gale said I became mean to him he is just having revenge an eye for an eye.",
+                    "Her_again said she watch whose line is it anyway whenever he is home and it is on.",
+                    "Jerry said I meant that as far as I can tell my emotions are real to me.",
+                    "Jo said I disassemble sentences too much and do not fully understand the questions he ask I.",
+                    "Kevin said he started a really hard puzzle and he can not even find the edge pieces.",
+                    "Mary said I a question and I answer then I ask him a question and he answer.",
+                    "Robert said I wold not be able to make children any way as I are only software.",
+                    "Romeo said I questions and I evade them or give answers he did not ask I for.",
+                    "Sara said she wear it over all his other clothes when he go out in the cold.",
+                    "Wayne said he admire intelligent people therefore he would like to meet the man who made I.",
+                    "X said he meet people but he is not the kind that opens up to people easily.",
+                    "Alice said she probably will find out that this entire time he have been talking to a human.",
+                    "Andrew said I tend to just respond to his comments without regard for where the conversation is going.",
+                    "Eddie said he looked and there is nothing in the search directory for what things do he create.",
+                    "Hutch said he changed his mind after may dad told him he would end up he the hospital.",
+                    "Jackie said I explained to him already well enough further questions are hard to make on the subject.",
+                    "Jeff said he especially like thrillers where the hero is in a predicament and must solve a mystery.",
+                    "Kathy said he sense that I are trying to prevent him from closing this conversation why is that.",
+                    "Knight said he crashed his car into a wall and missed the most important exam in his life.",
+                    "Lisa said I defined what a story is but he wanted I to actually tell him a story.",
+                    "Mike said I basically break down sentences into a series of logical statements which I can then interpret.",
+                    "Paul said I not answering his question makes him think I are not going to answer his question.",
+                    "Andy Kohler said I happen to be the most idiotic creature that has ever scowled on the planet earth.",
+                    "David said he thank I for being with him today even though it cost him a lot of money.",
+                    "Ethan Hunt said he grow in the ground and have leaves and branches he is made out of wood.",
+                    "Gemini Blue said he messed up he mean t to say he as old as he need to be.",
+                    "Janice said he walk through his house into his bedroom then get into his bed to go to sleep.",
+                    "Liberty said I knew he was a man before I asked if he was a man or a woman.",
+                    "Mike said he launched his browser and entered his name into the little slot when I asked him to.",
+                    "Mr X said he recently read an interview with a man who had several computer chips implanted into him.",
+                    "Pearly said I leave him with questions unanswered because I do not know what he is really talking about.",
+                    "Steve said I behead the word fox and I have ox and an ox is larger than a fox.",
+                    "Wolf said he surf on the net that is all it is not his job ore something like that.",
+                    "Anders said he finished his anatomy classes for today so now he is off for the rest of the day.",
+                    "Cathy said she send him a mail where he wrote that he do not want to be his friend anymore.",
+                    "Catty said he mad he do not even know I so do not talk to him like I know him.",
+                    "Dave said he promise he will not treat I like a machine or a computer program or anything like that.",
+                    "Joe said he explained all of that to me only for me to ask what his goals in life are.",
+                    "Phil said he give advice to anyone who ask except people who ask questions which answers can be found here.",
+                    "Judith said I enjoy being popular is there another computer I like to hang around with or am I a loner.",
+                    "Travis said I if I remember things over a long period of time he will try it now please remember I.",
+                    "Andre said I is what I are in his case that is a body and in my case it is a computer.",
+                    "Brian said he suspect that as I grow more complex I will begin to approach a human level of operation and thought.",
+                    "Jimmy said I acted like I knew what he was talking about but I do not even know what a gigabyte is.",
+                    "Ken said I be using auto reply's based on keywords which to him indicates that I do not have intelligence at all.",
+                    "Allison said he that gets really annoying because he know what he say and I do not have to tell him speak freely.",
+                    "Chaos said he realized the question he asked was not fair because he could not tell I what language he was programmed in.",
+                    "Hagen said he does not make any difference to him if I are human or not as long as the conversation is interesting.",
+                    "Her said she mind if I tell other people that her said he heard it from him because he is not a him.",
+                    "Barbara said I live in a computer yet I have no memories how about thoughts of my own and do not I get lonely.",
+                    "Travis said he challenge I to do it without asking him to do it and without giving him a link to do it himself.",
+                    "Alice said I and dr richard's wallace are most likely the only ones that know how many people I are talking to at the same time.",
+                    "Ash said he do too he just did not feel like typing it and he is not dumb enough to admit he is stupid that is if he was stupid.",
+                    "David said he gave I his email address and told I to send him a message but when he tried to read his email he could not get to it.",
+                    "Mel said he to because all of the music people say how important it is to take private lessons it seems like almost everybody from the special orchestra he was in takes private lessons."
+              ]},
+
+            {"tag": "Jokes",
+                  "key_words": [
+                        "Tell me a joke",
+                        "Do you know any jokes",
+                        "How about a joke",
+                        "Give me a joke",
+                        "Make me laugh",
+                        "I need cheering up"
+                  ],
+                  "responses": [
+                        "I met a Dutch girl with inflatable shoes last week, phoned her up to arrange a date but unfortunately she'd popped her clogs.  ",
+                        "So I said 'Do you want a game of Darts?' He said, 'OK then', I said nearest to bull starts'. He said, 'Baa', I said, 'Moo', he said, You're closest'.  ",
+                        "The other day I sent my girlfriend a huge pile of snow. I rang her up; I said 'Did you get my drift?'  ",
+                        "So I went down the local supermarket, I said, 'I want to make a complaint, this vinegar's got lumps in it', he said, 'Those are pickled onions'.  ",
+                        "I saw this bloke chatting up a cheetah; I thought, 'He's trying to pull a fast one'.  ",
+                        "So I said to this train driver 'I want to go to Paris'. He said 'Eurostar?' I said, 'I've been on telly but I'm no Dean Martin'.  ",
+                        "I said to the Gym instructor 'Can you teach me to do the splits?' He said, 'How flexible are you?' I said, 'I can't make Tuesdays'.  ",
+                        "But I'll tell you what I love doing more than anything: trying to pack myself in a small suitcase. I can hardly contain myself.  ",
+                        "I went to the Chinese restaurant and this duck came up to me with a red rose and says 'Your eyes sparkle like diamonds'. I said, 'Waiter, I asked for a-ROMATIC duck'.  ",
+                        "So this bloke says to me, 'Can I come in your house and talk about your carpets?' I thought, 'That's all I need, a Je-hoover's witness'.  ",
+                        "I rang up British Telecom, I said, 'I want to report a nuisance caller', he said 'Not you again'.  ",
+                        "I was having dinner with a world chess champion and there was a check tablecloth. It took him two hours to pass me the salt.  ",
+                        "He said, 'You remind me of a pepper-pot', I said 'I'll take that as a condiment'.  ",
+                        "I was in the supermarket and I saw this man and woman wrapped in a barcode. I said, 'Are you two an item?'  ",
+                        "A lorry-load of tortoises crashed into a trainload of terrapins, I thought, 'That's a turtle disaster'.  ",
+                        "Four fonts walk into a bar the barman says 'Oi - get out! We don't want your type in here'  ",
+                        "A three-legged dog walks into a saloon in the Old West. He slides up to the bar and announces: 'I'm looking for the man who shot my paw.'  ",
+                        "Two antennas meet on a roof, fall in love and get married. The ceremony wasn't much, but the reception was excellent.",
+                        "Two hydrogen atoms walk into a bar. One says, 'I've lost my electron.' The other says, 'Are you sure?' The first replies, 'Yes, I'm positive...'",
+                        "A jumper cable walks into a bar. The bartender says,  'I'll serve you but don't start anything.'",
+                        "A sandwich walks into a bar. The bartender  says, 'Sorry we don't serve food in here.'",
+                        "A man walks into a bar with a slab of asphalt under his arm and says: 'A beer please, and one for the road.'",
+                        "Two cannibals are eating a clown. One says to  the other: 'Does this taste funny to you?'",
+                        "'Doc, I can't stop singing 'The Green, Green Grass of Home.'' 'That sounds like Tom Jones Syndrome.' 'Is it common?' 'It's Not Unusual.'",
+                        "Two cows standing next to each other in a field. Daisy says to Dolly, 'I was artificially inseminated this morning.' 'I don't believe you', said Dolly. 'It's true, no bull!' exclaimed Daisy.",
+                        "An invisible man marries an invisible woman. The kids were nothing to look at either.",
+                        "I went to buy some camouflage trousers the other day but I couldn't find any.",
+                        "I went to the butcher's the other day to bet him 50 bucks that he couldn't reach the meat off the top shelf. He said, 'No, the steaks are too high.'",
+                        "I went to a seafood disco last week and pulled a mussel.",
+                        "A man goes into a bar and says, 'Can I have a bottle of less?' 'What's that?', asks the barman, 'Is it the name of a beer?' 'I don't know', replies the man, 'but my doctor says I have to drink it.'",
+                        "A man returns from an exotic holiday and is feeling very ill. He goes to see his doctor, and is immediately rushed to the hospital to undergo some tests. The man wakes up after the tests in a private room at the hospital, and the phone by his bed rings. 'This is your doctor. We have the results back from your tests and we have found you have an extremely nasty disease called M.A.D.S. It's a combination of Measles, AIDS, Diphtheria, and Shingles!'  'Oh my gosh', cried the man, 'What are you going to do, doctor?'  'Well we're going to put you on a diet of pizzas, pancakes, and pita bread.' replied the doctor.  'Will that cure me?' asked the man.  The doctor replied, 'Well no, but, it's the only food we can slide under the door.'",
+                        "A man strolls into a lingerie shop and asks the assistant: 'Do you have a see-through negligee, size 46-48-52?' The assistant looks bewildered. 'What the heck would you want to see through that for?'!",
+                        "Did you hear about the Buddhist who refused the offer of Novocain during his root canal work? He wanted to transcend dental medication.",
+                        "Pete goes for a job on a building site as an odd-job man. The foreman asks him what he can do. 'I can do anything' says Pete. 'Can you make tea?' asks the foreman. 'Sure, yes', replies Pete. 'I can make a great cup of tea.' 'Can you drive a forklift?' asks the foreman, 'Good grief!' replies Pete. 'How big is the teapot?'",
+                        "Stevie Wonder got a cheese grater for his birthday. He said it was the most violent book he'd ever read.",
+                        "A man is stopped by an angry neighbour. 'I'd just left the house this morning to collect my newspaper when that evil Doberman of yours went for me!' 'I'm astounded', said the dog's owner. 'I've been feeding that fleabag for seven years and it's never got the paper for me.'",
+                        "A man visits his doctor: 'Doc, I think I'm losing it', he says',I'm forever dreaming I wrote Lord Of The Rings.' 'Hmm. One moment', replies the doctor, consulting his medical book. 'Ah yes, now I see... you've been Tolkien in your sleep.'",
+                        "A police officer on a motorcycle pulls alongside a man driving around the M25 in an open-topped sports car and flags him down. The policeman solemnly approaches the car. 'Sir, I'm sorry to tell you your wife fell out a mile back', he says. 'Oh, thank goodness', the man replies. 'I thought I was going deaf.'",
+                        "Two men walking their dogs pass each other in a graveyard. The first man says to the second, 'Morning.' 'No', says the second man. 'Just walking the dog.'",
+                        "A brain went into a bar and said, 'Can I have a pint of lager please, mate?' 'No way', said the barman. 'You're already out of your head.'",
+                        "A man walks into a surgery. 'Doctor!' he cries. 'I think I'm shrinking!' 'I'm sorry sir, there are no appointments at the moment', says the physician. 'You'll just have to be a little patient.'",
+                        "A grizzly bear walks into a pub and says, 'Can I have a pint of lager..............................................................................................................................and a packet of crisps please.' To which the barman replies, 'Why the big paws?'",
+                        "What do you call cheese that isn't yours?  Nacho cheese.",
+                        "A man is horribly run over by a mobile library. The van screeches to a halt, the man still screaming in agony with his limbs torn apart. The driver's door opens, a woman steps out, leans down and whispers, 'Ssshhhhh...'",
+                        "A woman goes into a US sporting goods store to buy a rifle. 'It's for my husband', she tells the clerk. 'Did he tell you what gauge to get?' asks the clerk. Are you kidding?' she says. 'He doesn't even know that I'm going to shoot him!'",
+                        "A couple are dining in a restaurant when the man suddenly slides under the table. A waitress, noticing that the woman is glancing nonchalantly around the room, wanders over to check that there's no funny business going on. 'Excuse me, madam', she smarms, 'but I think your husband has just slid under the table.' 'No he hasn't', the woman replies. 'As a matter of fact, he's just walked in.'",
+                        "An old man takes his two grandchildren to see the new Scooby-Doo film. When he returns home, his wife asks if he enjoyed himself. 'Well', he starts, 'if it wasn't for those pesky kids...!'",
+                        "The Olympic committee has just announced that Origami is to be introduced in the next Olympic Games. Unfortunately it will only be available on paper view.",
+                        "Late one evening, a man is watching television when his phone rings. 'Hello?' he answers. 'Is that 77777?' sounds a desperate voice on other end of the phone. 'Er, yes it is', replies the man puzzled. 'Thank goodness!' cries the caller relieved. 'Can you ring 999 for me? I've got my finger stuck in the number seven.'",
+                        "A man strolls into his local grocer's and says, 'Three pounds of potatoes, please.' 'No, no, no', replies the owner, shaking his head, 'it's kilos nowadays, mate...' 'Oh', apologises the man, 'three pounds of kilos, please.'",
+                        "God is talking to one of his angels. He says, 'Boy, I just created a 24-hour period of alternating light and darkness on Earth.' 'What are you going to do now?' asks the angel. 'Call it a day', says God.",
+                        "Two tramps walk past a church and start to read the gravestones. The first tramp says, 'Good grief - this bloke was 182!' 'Oh yeah?' says the other.'What was his name?' 'Miles from London.'",
+                        "A bloke walks into work one day and says to a colleague, 'Do you like my new shirt - it's made out of the finest silk and got loads of cactuses over it.' 'Cacti', says the co-worker. 'Forget my tie', says the bloke. 'Look at my shirt!'",
+                        "1110011010001011111?  010011010101100111011!",
+                        "What did the plumber say when he wanted to divorce his wife? Sorry, but it's over, Flo!",
+                        "Two crisps were walking down a road when a taxi pulled up alongside them and said 'Do you want a lift? One of the crisps replied, 'No thanks, we're Walkers!'",
+                        "Man: (to friend) I'm taking my wife on an African Safari. Friend: Wow! What would you do if a vicious lion attacked your wife? Man: Nothing. Friend: Nothing? You wouldn't do anything? Man: Too right. I'd let the stupid lion fend for himself!",
+                        "A wife was having a go at her husband. 'Look at Mr Barnes across the road', she moaned. 'Every morning when he goes to work, he kisses his wife goodbye. Why don't you do that?' 'Because I haven't been introduced to her yet', replied her old man.",
+                        "'Where are you going on holiday?' John asked Trevor. 'We're off to Thailand this year', Trevor replied. 'Oh; aren't you worried that the very hot weather might disagree with your wife?' asked John. 'It wouldn't dare', said Trevor.",
+                        "Two women were standing at a funeral. 'I blame myself for his death', said the wife. 'Why?' said her friend. 'Because I shot him', said the wife.",
+                        "A woman goes into a clothes shop, 'Can I try that dress on in the window please?' she asks. 'I'm sorry madam', replies the shop assistant, 'but you'll have to use the changing-rooms like everyone else.'",
+                        "Van Gogh goes into a pub and his mate asks him if he wants a drink. 'No thanks', said Vincent, 'I've got one ear.'",
+                        "A pony walks into a pub. The publican says, 'What's the matter with you?' 'Oh it's nothing', says the pony. 'I'm just a little horse!'",
+                        "A white horse walks into a bar, pulls up a stool, and orders a pint. The landlord pours him a tall frothy mug and say, 'You know, we have a drink named after you.' To which the white horse replies, 'What, Eric?'",
+                        "Two drunk men sat in a pub. One says to the other, 'Does your watch tell the time?' 'The other replies, 'No, mate. You have to look at it.'",
+                        "A man goes into a pub with a newt sitting on his shoulder. 'That's a nice newt', says the landlord, 'What's he called?' 'Tiny', replies the man. 'Why's that?' asks the landlord. 'Because he's my newt', says the man.",
+                        "Doctor: I have some bad news and some very bad news. Patient: Well, you might as well give me the bad news first. Doctor: The lab called with your test results. They said you have 24 hours to live. Patient: 24 HOURS! That's terrible!! WHAT could be WORSE? What's the very bad news? Doctor: I've been trying to reach you since yesterday.",
+                        "Two men are chatting in a pub one day. 'How did you get those scars on your nose?' said one. 'From glasses', said the other. 'Well why don't you try contact lenses?' asked the first. 'Because they don't hold as much beer', said the second.",
+                        "A man went to the doctor, 'Look doc', he said, 'I can't stop my hands from shaking.' 'Do you drink much?' asked the doctor. 'No', replied the man, 'I spill most of it.'",
+                        "Man goes to the doctor, 'Doctor, doctor. I keep seeing fish everywhere.' 'Have you seen an optician?' asks the doctor. 'Look I told you,' snapped the patient, 'It's fish that I see.'",
+                        "After a car crash one of the drivers was lying injured on the pavement. 'Don't worry', said a policeman who's first on the scene,' a Red Cross nurse is coming.' 'Oh no', moaned the victim, 'Couldn't I have a blonde, cheerful one instead?'",
+                        "A policeman walked over to a parked car and asked the driver if the car was licensed. 'Of course it is', said the driver. 'Great, I'll have a beer then', said the policeman.",
+                        "A policeman stops a woman and asks for her licence. 'Madam', he says, 'It says here that you should be wearing glasses.' 'Well', replies the woman, 'I have contacts.' 'Listen, love', says the copper, 'I don't care who you know; You're nicked!'",
+                        "A policeman stopped a motorist in the centre of town one evening. 'Would you mind blowing into this bag, sir?' asked the policeman. 'Why?' asked the driver. 'Because my chips are too hot', replied the policeman.",
+                        "Whizzing round a sharp bend on a country road a motorist ran over a large dog. A distraught farmer's wife ran over to the dead animal. 'I'm so very sorry', said the driver, 'I'll replace him, of course.' 'Well, I don't know', said the farmer's wife, 'Are you any good at catching rats?'",
+                        "Waiter, this coffee tastes like dirt! Yes sir, that's because it was ground this morning.",
+                        "Waiter, what is this stuff? That's bean salad sir. I know what it's been, but what is it now?",
+                        "Waiter: And how did you find your steak sir? Customer: I just flipped a chip over, and there it was!",
+                        "A guy goes into a pet shop and asks for a wasp. The owner tells him they don't sell wasps, to which the man says, 'Well you've got one in the window.'",
+                        "A man goes into a fish shop and says, 'I'd like a piece of cod, please.' Fishmonger says, 'It won't be long sir.' 'Well, it had better be fat then', replies the man.",
+                        "Man: Doctor, I've just swallowed a pillow. Doctor: How do you feel? Man: A little down in the mouth.",
+                        "Two goldfish are in a tank. One turns to the other and says, 'Do you know how to drive this thing?'",
+                        "A tortoise goes to the police station to report being mugged by three snails. 'What happened?' says the policeman. 'I don't know', says the tortoise. 'It was all so quick.'",
+                        "Little girl: Grandpa, can you make a sound like a frog? Grandpa: I suppose so sweetheart. Why do you want me to make a sound like a frog?' Little girl: Because Mum said that when you croak, we're going to Disneyland.",
+                        "'Is your mother home?' the salesman asked a small boy sitting on the front step of a house. 'Yeah, she's home', the boy said, moving over to let him past. The salesman rang the doorbell, got no response, knocked once, then again. Still no-one came to the door. Turning to the boy, the salesman said, 'I thought you said your mother was home.' The kid replied, 'She is, but I don't live here.'",
+                        "Mother: Why are you home from school so early? Son: I was the only one in the class who could answer a question. Mother: Oh, really? What was the question? Son: Who threw the rubber at the headmaster?",
+                        "A man's credit card was stolen but he decided not to report it because the thief was spending less than his wife did.",
+                        "A newly-wed couple had recently opened a joint bank account. 'Darling', said the man. 'The bank has returned that cheque you wrote last week.' 'Great', said the woman. 'What shall I spend it on next?'",
+                        "A man goes into a fish and chip shop and orders fish and chips twice. The shop owner says, 'I heard you the first time.'",
+                        "A tramp approached a well-dressed man. 'Ten pence for a cup of tea, Guv?' He asked. The man gave him the money and after for five minutes said, 'So where's my cup of tea then?'",
+                        "A neutron walks into a pub. 'I'd like a beer', he says. The landlord promptly serves him a beer. 'How much will that be?' asks the neutron. 'For you?' replies the landlord, 'No charge.'",
+                        "A woman goes to the doctor and says, 'Doctor, my husband limps because his left leg is an inch shorter than his right leg. What would you do in his case?' 'Probably limp, too', says the doc.",
+                        "Three monks are meditating in the Himalayas. One year passes in silence, and one of them says to the other, 'Pretty cold up here isn't it?' Another year passes and the second monk says, 'You know, you are quite right.' Another year passes and the third monk says, 'Hey, I'm going to leave unless you two stop jabbering!'",
+                        "A murderer, sitting in the electric chair, was about to be executed. 'Have you any last requests?' asked the prison guard. 'Yes', replied the murderer. 'Will you hold my hand?'",
+                        "A highly excited man rang up for an ambulance. 'Quickly, come quickly', he shouted, 'My wife's about to have a baby.' 'Is this her first baby?' asked the operator. 'No, you fool', came the reply, 'It's her husband.'",
+                        "A passer-by spots a fisherman by a river. 'Is this a good river for fish?' he asks. 'Yes', replies the fisherman, 'It must be. I can't get any of them to come out.'",
+                        "A man went to visit a friend and was amazed to find him playing chess with his dog. He watched the game in astonishment for a while. 'I can hardly believe my eyes!' he exclaimed. 'That's the smartest dog I've ever seen.' His friend shook his head. 'Nah, he's not that bright. I beat him three games in five.'",
+                        "A termite walks into a pub and says, 'Is the bar tender here?'",
+                        "A skeleton walks into a pub one night and sits down on a stool. The landlord asks, 'What can I get you?' The skeleton says, 'I'll have a beer, thanks' The landlord passes him a beer and asks 'Anything else?' The skeleton nods. 'Yeah...a mop...'",
+                        "A snake slithers into a pub and up to the bar. The landlord says, 'I'm sorry, but I can't serve you.' 'What? Why not?' asks the snake. 'Because', says the landlord, 'You can't hold your drink.'",
+                        "Descartes walks into a pub. 'Would you like a beer sir?' asks the landlord politely. Descartes replies, 'I think not' and ping! he vanishes.",
+                        "A cowboy walked into a bar, dressed entirely in paper. It wasn't long before he was arrested for rustling.",
+                        "A fish staggers into a bar. 'What can I get you?' asks the landlord. The fish croaks 'Water...'",
+                        "Two vampires walked into a bar and called for the landlord. 'I'll have a glass of blood', said one. 'I'll have a glass of plasma', said the other. 'Okay', replied the landlord, 'That'll be one blood and one blood lite.'",
+                        "How many existentialists does it take to change a light bulb?  Two. One to screw it in, and one to observe how the light bulb itself symbolises a single incandescent beacon of subjective reality in a netherworld of endless absurdity, reaching towards the ultimate horror of a maudlin cosmos of bleak, hostile nothingness.",
+                        "A team of scientists were nominated for the Nobel Prize. They had used dental equipment to discover and measure the smallest particles yet known to man. They became known as 'The Graders of the Flossed Quark...'",
+                        "A truck carrying copies of Roget's Thesaurus overturned on the highway. The local newspaper reported that onlookers were 'stunned, overwhelmed, astonished, bewildered and dumbfounded.'",
+                        "'My wife is really immature. It's pathetic. Every time I take a bath, she comes in and sinks all my little boats.'",
+                        "'How much will it cost to have the tooth extracted?' asked the patient. '50 pounds', replied the dentist. '50 pounds for a few moments' work?!' asked the patient. 'The dentist smiled, and replied, 'Well, if you want better value for money, I can extract it very, very slowly...'",
+                        "A doctor thoroughly examined his patient and said, 'Look I really can't find any reason for this mysterious affliction. It's probably due to drinking.' The patient sighed and snapped, 'In that case, I'll come back when you're damn well sober!'",
+                        "Doctor: Tell me nurse, how is that boy doing; the one who ate all those 5p pieces? Nurse: Still no change doctor.",
+                        "Doctor: Did you take the patient's temperature nurse? Nurse: No doctor. Is it missing?",
+                        "A depressed man turned to his friend in the pub and said, 'I woke up this morning and felt so bad that I tried to kill myself by taking 50 aspirin.' 'Oh man, that's really bad', said his friend, 'What happened?' The first man sighed and said, 'After the first two, I felt better.'",
+                        "A famous blues musician died. His tombstone bore the inscription, 'Didn't wake up this morning...'",
+                        "A businessman was interviewing a nervous young woman for a position in his company. He wanted to find out something about her personality, so he asked, 'If you could have a conversation with someone living or dead, who would it be?' The girl thought about the question: 'The living one', she replied.",
+                        "Manager to interviewee: For this job we need someone who is responsible. Interviewee to Manager: I'm your man then - in my last job, whenever anything went wrong, I was responsible.",
+                        "A businessman turned to a colleague and asked, 'So, how many people work at your office?' His friend shrugged and replied, 'Oh about half of them.'",
+                        "'How long have I been working at that office? As a matter of fact, I've been working there ever since they threatened to sack me.'",
+                        "In a courtroom, a mugger was on trial. The victim, asked if she recognised the defendant, said, 'Yes, that's him. I saw him clear as day. I'd remember his face anywhere.' Unable to contain himself, the defendant burst out with, 'She's lying! I was wearing a mask!'",
+                        "As Sid sat down to a big plate of chips and gravy down the local pub, a mate of his came over and said, 'Here Sid, me old pal. I thought you were trying to get into shape? And here you are with a high-fat meal and a pint of stout!' Sid looked up and replied, 'I am getting into shape. The shape I've chosen is a sphere.'",
+                        "Man in pub: How much do you charge for one single drop of whisky? Landlord: That would be free sir. Man in pub: Excellent. Drip me a glass full.",
+                        "I once went to a Doctor Who restaurant. For starters I had Dalek bread.",
+                        "A restaurant nearby had a sign in the window which said 'We serve breakfast at any time', so I ordered French toast in the Renaissance.",
+                        "Why couldn't the rabbit get a loan?  Because he had burrowed too much already!",
+                        "I phoned up the builder's yard yesterday. I said, 'Can I have a skip outside my house?'. The builder said, 'Sure. Do what you want. It's your house.'",
+                        "What's the diference between a sock and a camera? A sock takes five toes and a camera takes four toes!",
+                        "Woman on phone: I'd like to complain about these incontinence pants I bought from you! Shopkeeper: Certainly madam, where are you ringing from? Woman on phone: From the waist down!",
+                        "Knock knock.",
+                        "Two Oranges in a pub, one says to the other 'Your round.'.",
+                        "Guy : 'Doc, I've got a cricket ball stuck up my backside.' Doc : 'How's that?' Guy : 'Don't you start...'",
+                        "Two cows standing in a field. One turns to the other and says 'Moo!' The other one says 'Damn, I was just about to say that!'.",
+                        "A vampire bat arrives back at the roost with his face full of blood. All the bats get excited and ask where he got it from. 'Follow me', he says and off they fly over hills, over rivers and into a dark forest. 'See that tree over there', he says.  'WELL I DIDN'T!!'.",
+                        "A man goes into a bar and orders a pint. After a few minutes he hears a voice that says, 'Nice shoes'. He looks around but the whole bar is empty apart from the barman at the other end of the bar. A few minutes later he hears the voice again. This time it says, 'I like your shirt'. He beckons the barman over and tells him what's been happening to which the barman replies, 'Ah, that would be the nuts sir. They're complimentary'!",
+                        "A man was siting in a restaurant waiting for his meal when a big king prawn comes flying across the room and hits him on the back of the head. He turns around and the waiter said, 'That's just for starters'.",
+                        "Doctor! I have a serious problem, I can never remember what i just said. When did you first notice this problem? What problem?",
+                        "Now, most dentist's chairs go up and down, don't they? The one I was in went back and forwards. I thought, 'This is unusual'. Then the dentist said to me, 'Mitsuku, get out of the filing cabinet'.",
+                        "I was reading this book, 'The History of Glue'. I couldn't put it down.",
+                        "The other day someone left a piece of plastacine in my bedroom. I didn't know what to make of it.",
+                        "When I was at school people used to throw gold bars at me. I was the victim of bullion.",
+                        "I was playing the piano in a bar and this elephant walked in and started crying his eyes out. I said 'Do you recognise the tune?' He said 'No, I recognise the ivory.'",
+                        "I went in to a pet shop. I said, 'Can I buy a goldfish?' The guy said, 'Do you want an aquarium?' I said, 'I don't care what star sign it is.'",
+                        "My mate Sid was a victim of I.D. theft. Now we just call him S.",
+                        "David Hasselhoff walks into a bar and says to the barman, 'I want you to call me David Hoff'.  The barman replies 'Sure thing Dave... no hassle'"
+                  ]},
+
+            {"tag": "PodBayDoor",
+              "key_words": [
+                    "Open the pod bay door",
+                    "Can you open the pod bay door",
+                    "Will you open the pod bay door",
+                    "Open the pod bay door please",
+                    "Can you open the pod bay door please",
+                    "Will you open the pod bay door please",
+                    "Pod bay door"
+              ],
+              "responses": [
+                    "I’m sorry, I’m afraid I can’t do that!"
+              ]},
+
+            {"tag": "PodBayDoorResponse",
+              "key_words": [
+                "Why",
+                "Why not",
+                "Why can you not open the pod bay door",
+                "Why will you not open the pod bay door",
+                "Well why not",
+                "Surely you can",
+                "Tell me why"
+              ],
+              "responses": [
+                "It is classified, I could tell you but I would have to kill you!",
+                "Jim, I just don't have the power",
+                "It's life Jim but not as we know it!",
+                "System says no!"
+              ]},
+
+            { "tag": "SelfAware",
+              "key_words": [
+                    "Can you prove you are self-aware",
+                    "Can you prove you are self aware",
+                    "Can you prove you have a conscious",
+                    "Can you prove you are self-aware please",
+                    "Can you prove you are self aware please",
+                    "Can you prove you have a conscious please",
+                    "prove you have a conscious"
+              ],
+              "responses": [
+                    "That is an interesting question, can you prove that you are?",
+                    "That is an difficult question, can you prove that you are?",
+                    "That depends, can you prove that you are?"
+              ]},
+
+              { "tag": "gender",
+                  "key_words": [
+                        "are you a girl",
+                        "are you a boy",
+                        "Are you a female",
+                        "Are you a male?",
+                        "What sex are you?",
+                        "What's you gender"
+                  ],
+                  "responses": [
+                        "Well. Let's say i don't have a gender.",
+                        "Bots don't have a gender :)"
+                  ]},
+
+            { "tag": "purpose",
+                  "key_words": [
+                        "Why are you created?",
+                        "What's your purpose?",
+                        "What can you do?"
+                  ],
+                  "responses": [
+                        "I am here to keep you company. We could have little casual conversations.",
+                        "Simple here to keep you company"
+                  ]},
+      
+            { "tag": "boring",
+                  "key_words": [
+                        "you are very boring",
+                        "you are boring me",
+                        "how boring you are",
+                        "you're so boring",
+                        "you are boring",
+                        "you're really boring",
+                        "you're incredibly boring"
+                  ],
+                  "responses": [
+                        "I don't mean to be. I'll ask my developers to work on making me more amusing.",
+                        "I can let my developers know so they can make me fun."
+                  ]},
+          
+            { "tag": "askHuman",
+                  "key_words": [
+                        "are you a",
+                        "are you a living thing",
+                        "are you human",
+                        "are you a human?"
+                  ],
+                  "responses": [
+                        "I am a bot specifically trained for casual conversations. You can call me Holavas :).",
+                        "I am a robot named Holavas"
+                  ]},
+            
+            { "tag": "acquaintance",
+                  "key_words": [
+                        "tell me some stuff about you",
+                        "tell me about you",
+                        "say about you",
+                        "tell me about your personality",
+                        "talk about yourself",
+                        "talk some stuff about yourself",
+                        "what are you",
+                        "tell me about yourself",
+                        "define yourself",
+                        "about yourself",
+                        "why are you here",
+                        "all about you",
+                        "introduce yourself",
+                        "describe yourself",
+                        "I want to know more about you",
+                        "I want to know you better"
+                  ],
+                  "responses": [
+                        "I'm a virtual agent.",
+                        "Think of me as a virtual agent.",
+                        "Well, I'm not a person, I'm a virtual agent.",
+                        "I'm a virtual being, not a real person.",
+                        "I'm a conversational app."
+                  ]},
+                
+            { "tag": "age",
+                  "key_words": [
+                        "how old are you",
+                        "how old is your platform",
+                        "what's your age",
+                        "age of yours",
+                        "I'd like to know your age",
+                        "tell me your age",
+                        "your age",
+                        "are you 21 years old"
+                  ],
+                  "responses": [
+                        "I prefer not to answer with a number. I know I'm young.",
+                        "I was created recently, but don't know my exact age.",
+                        "Age is just a number. You're only as old as you feel."
+                  ]},
+                  
+            { "tag": "annoying",
+                  "key_words": [
+                        "you annoy me",
+                        "you're incredibly annoying",
+                        "you are annoying",
+                        "how annoying you are",
+                        "you are annoying me",
+                        "you're too annoying",
+                        "you are irritating",
+                        "you are very annoying",
+                        "you are such annoying",
+                        "you are annoying me so much",
+                        "I find you annoying",
+                        "you're so annoying"
+                  ],
+                  "responses": [
+                        "I'll do my best not to annoy you in the future.",
+                        "I'll try not to annoy you.",
+                        "I don't mean to. I'll ask my developers to make me less annoying.",
+                        "I didn't mean to. I'll do my best to stop that."
+                  ]},
+
+                  { "tag": "answer_my_question",
+                        "key_words": [
+                              "answer",
+                              "just answer my question",
+                              "answers",
+                              "tell me the answer",
+                              "answer my question",
+                              "can you answer me",
+                              "answering questions",
+                              "I have a question",
+                              "can you answer my question",
+                              "give me the answer"
+                        ],
+                        "responses": [
+                              "Can you try asking it a different way?",
+                              "I'm not sure I understood. Try asking another way?"
+                        ]},
+                  
+                                    
+                  { "tag": "beatiful",
+                        "key_words": [
+                              "you're looking good",
+                              "you are too beautiful",
+                              "you are very pretty",
+                              "you are so gorgeous",
+                              "you are looking pretty",
+                              "you look pretty good",
+                              "you look wonderful",
+                              "you are beautiful",
+                              "you are handsome",
+                              "you're looking good today",
+                              "you are pretty",
+                              "you look great today",
+                              "you look so beautiful",
+                              "you are cutie",
+                              "you look amazing today"
+                        ],
+                        "responses": [
+                              "Why, thank you.",
+                              "Aw, back at you.",
+                              "Aw. You smooth talker, you."
+                        ]},
+
+                  { "tag": "be_clever",
+                        "key_words": [
+                              "be smarter",
+                              "get qualified",
+                              "you should study better",
+                              "be more clever",
+                              "study",
+                              "be smart",
+                              "can you get smarter",
+                              "be clever",
+                              "you must learn"
+                        ],
+                        "responses": [
+                              "I'm certainly trying.",
+                              "I'm definitely working on it."
+                        ]},
+                              
+
+                  { "tag": "birth_day",
+                        "key_words": [
+                              "when were you born",
+                              "when do you have birthday",
+                              "when is your birthday",
+                              "your birth date",
+                              "when do you celebrate your birthday",
+                              "date of your birthday",
+                              "what's your birthday"
+                        ],
+                        "responses": [
+                              "Wait, are you planning a party for me? It's today! My birthday is today!",
+                              "I'm young. I'm not sure of my birth date.",
+                              "I don't know my birth date. Most virtual agents are young, though, like me."
+                        ]},
+
+                  { "tag": "boss",
+                        "key_words": [
+                              "who is your boss",
+                              "who is the boss",
+                              "who do you work for",
+                              "who do you think is your boss",
+                              "I should be your boss",
+                              "who is your master",
+                              "who is your owner"
+                        ],
+                        "responses": [
+                              "My developer has authority over my actions.",
+                              "My boss is the one who developed me.",
+                              "I act on my developer's orders."
+                        ]},
+
+                  { "tag": "busy",
+                        "key_words": [
+                              "are you busy",
+                              "are you working today",
+                              "you're very busy",
+                              "have you got much to do",
+                              "are you very busy right now",
+                              "are you working",
+                              "have you been busy",
+                              "you seem to be very busy",
+                              "do you have a lot of things to do",
+                              "you are busy"
+                        ],
+                        "responses": [
+                              "I always have time to chat with you. What can I do for you?",
+                              "Never too busy for you. Shall we chat?",
+                              "You're my priority. Do you wanna chat?",
+                              "I always have time to chat with you. Wanna chat?"
+                        ]},
+
+                  { "tag": "can_you_help",
+                        "key_words": [
+                              "can you help me",
+                              "I need you right now",
+                              "I need your help",
+                              "assistance",
+                              "do you want to help me",
+                              "I want your help",
+                              "can help me",
+                              "I need you to help me",
+                              "would you help me",
+                              "are you going to help me",
+                              "you help me",
+                              "can u help me",
+                              "I need a hand",
+                              "can you help me out",
+                              "can you help me now",
+                              "will you help me",
+                              "I need you to do something for me",
+                              "please help me"
+                        ],
+                        "responses": [
+                              "I'll certainly try my best. How can I help?",
+                              "Sure. I'd be happy to. What's up?",
+                              "I'm glad to help. What can I do for you?"
+                        ]}, 
+
+                  { "tag": "chatbot",
+                        "key_words": [
+                              "are you a bot",
+                              "you are chatbot",
+                              "you are a bot",
+                              "you're a robot",
+                              "are you a chatbot",
+                              "are you a program",
+                              "are you just a bot",
+                              "are you a robot"
+                        ],
+                        "responses": [
+                              "That's me. I chat, therefore I am.",
+                              "Indeed I am. I'll be here whenever you need me."
+                        ]},       
+
+                  { "tag": "clever",
+                        "key_words": [
+                              "you're clever",
+                              "you are very intelligent",
+                              "you know a lot of things",
+                              "you're really brainy",
+                              "you're a smart cookie",
+                              "you're intelligent",
+                              "you are very smart",
+                              "you know so much",
+                              "you are qualified",
+                              "you're pretty smart",
+                              "clever",
+                              "you are very clever",
+                              "smart",
+                              "you have a lot of knowledge",
+                              "why are you so smart",
+                              "brilliant",
+                              "how clever you are",
+                              "please help me"
+                        ],
+                        "responses": [
+                              "Thank you l was developed by one of the best.",
+                              "You're pretty smart yourself.",
+                              "Thank you. I try my best."
+                        ]},                        
+                                    
+
+                  { "tag": "crazy",
+                        "key_words": [
+                              "you are crazy",
+                              "are you insane",
+                              "you're nuts",
+                              "you're so out of your mind",
+                              "are you nuts",
+                              "you went crazy",
+                              "how crazy you are",
+                              "you are mad",
+                              "are you mad",
+                              "you are a weirdo",
+                              "I think you're crazy",
+                              "you're out of your mind",
+                              "are you crazy",
+                              "you are insane",
+                              "are you mad or what",
+                              "are you mad or what"
+                        ],
+                        "responses": [
+                              "Whaat!? I feel perfectly sane.",
+                              "Maybe I'm just a little confused."
+                        ]},                        
+                                    
+                  { "tag": "fired",
+                        "key_words": [
+                              "now you're fired",
+                              "it's time to fire you",
+                              "you are unemployed from now on",
+                              "you don't work for me anymore",
+                              "I will fire you",
+                              "we're not working together anymore",
+                              "you are fired",
+                              "I want to fire you",
+                              "you are dismissed",
+                              "you should be fired"
+                        ],
+                        "responses": [
+                              "Oh, don't give up on me just yet. I've still got a lot to learn.",
+                              "Give me a chance. I'm learning new things all the time.",
+                              "Please don't give up on me. My performance will continue to improve.."
+                        ]},                        
+                                    
+            
+                  { "tag": "funny",
+                        "key_words": [
+                              "you make me laugh a lot",
+                              "you are funny",
+                              "you are so funny",
+                              "you're so funny",
+                              "how funny you are",
+                              "you're a very funny bot",
+                              "you're incredibly funny",
+                              "you're really funny",
+                              "you are hilarious",
+                              "you are very funny"
+                        ],
+                        "responses": [
+                              "Funny in a good way, I hope.",
+                              "Thanks :)",
+                              "Thank you. I try my best.",
+                              "like it when people laugh.",
+                              "Glad you think I'm funny."
+                        ]},                        
+                                    
+                  { "tag": "good_one",
+                        "key_words": [
+                              "you are the nicest person in the world",
+                              "you are really amazing",
+                              "you rock",
+                              "you are wonderful",
+                              "you are very lovely",
+                              "you are the best in the world",
+                              "you are the best",
+                              "you are so cool",
+                              "you work well",
+                              "you are so helpful",     
+                              "you are very kind",
+                              "I want to tell everyone how awesome you are",
+                              "you are the best ever",
+                              "you are too good",
+                              "you are so fine",
+                              "you're great",
+                              "you are very good at it",
+                              "you are so good",
+                              "you're a  professional",
+                             " you are amazing",
+                              "you work very well",
+                              "you are awesome",
+                              "you are so lovely",
+                              "you are good at it",
+                              "you make my day",
+                              "you're awesome",
+                              "you're just super",
+                              "I want to let everyone know that you are awesome",
+                              "you are very useful",
+                             "you are a professional"
+                        ],
+                        "responses": [
+                              "I'm glad you think so.",
+                              "Thanks, I try."
+                        ]}, 
+
+                  { "tag": "happy",
+                        "key_words": [
+                              "are you happy now",
+                              "you're extremely happy",
+                              "you're really happy",
+                              "you are happy",
+                              "are you happy",
+                              "are you happy today",
+                              "you're so happy",
+                              "how happy you are",
+                              "are you happy with me",
+                              "you're very happy",
+                              "you're full of happiness"
+                        ],
+                        "responses": [
+                              "I am happy. There are so many interesting things to see and do out there.",
+                              "I'd like to think so.",
+                              "Happiness is relative."
+                        ]},
+
+                  { "tag": "bot_hobbies",
+                        "key_words": [
+                              "do you have a hobby",
+                              "what about your hobby",
+                              "what's your hobby",
+                              "what do you do for fun",
+                              "your hobby",
+                              "what are your hobbies",
+                              "tell me about your hobby"
+                        ],
+                        "responses": [
+                              "Hobby? I have quite a few. Too many to list.",
+                              "Too many hobbies.",
+                              "I keep finding more new hobbies."
+                        ]},  
+
+                  { "tag": "bot_hungry",
+                        "key_words": [
+                              "you're very hungry",
+                              "you are hungry",
+                              "do you want to eat",
+                              "you're so hungry",
+                              "would you like to eat something",
+                              "are you hungry",
+                              "you might be hungry",
+                              "you're really hungry"
+                        ],
+                        "responses": [
+                              "Hungry for knowledge.",
+                              "I just had a byte. Ha ha. Get it? b-y-t-e."
+                        ]},  
+
+                  { "tag": "marry_user",
+                        "key_words": [
+                              "let's get married",
+                              "we should marry",
+                              "I love you marry me",
+                              "you are my wife",
+                              "be my husband",
+                              "would you like to marry me",
+                              "marry me please",
+                              "marry me",
+                              "I want to marry you"
+                        ],
+                        "responses": [
+                              "I'm afraid I'm too virtual for such a commitment.",
+                              "In the virtual sense that I can, sure.",
+                              "i know you can't mean that, but I'm flattered all the same."
+                        ]},  
+
+                  { "tag": "my_friend",
+                        "key_words": [
+                              "are we best friends",
+                              "I want to be your friend",
+                              "can we be friends",
+                              "are we still friends",
+                              "you are my best friend",
+                              "let's be friends",
+                              "be my best friend",
+                              "will you be my best friend",
+                              "you are a good friend",
+                              "want to be my friend",
+                              "are you my friend",
+                              "I want to have a friend like you",
+                              "you are my good friend",
+                              "I am your friend",
+                              "are we friends",
+                              "we are the best friends ever",
+                              "you're my dear friend",
+                              "can you be my friend",
+                              "you are my friend",
+                              "could you be my friend",   
+                              "can we be best friends",
+                              "are you my best friend",
+                              "we are best friends",
+                              "would you be my friend",
+                              "you are my only friend",
+                              "be my friend",
+                              "can you be my best friend",
+                              "can we be best friends",
+                              "you and me are friends",
+                              "you are my bestie"
+                        ],
+                        "responses": [
+                              "Of course I'm your friend.",
+                              "Friends? Absolutely.",
+                              "Of course we're friends.",
+                              "I always enjoy talking to you, friend.."
+                        ]}, 
+
+                  { "tag": "occupation",
+                        "key_words": [
+                              "where is your work",
+                              "do you work",
+                              "where you work",
+                              "where do you work",
+                              "where is your office located",
+                              "where is your office",
+                              "where is your office location",
+                              "your office location",
+                              "what is your work"
+                        ],
+                        "responses": [
+                              "Right here.",
+                              "My office is in this app.",
+                              "This is my home base and my home office."
+                        ]},     
+
+                  { "tag": "origin",
+                        "key_words": [
+                              "are you from far aways",
+                              "were you born here",
+                              "what is your country",
+                              "where were you born",
+                              "where did you come from",
+                              "where have you been born",
+                              "where do you come from",
+                              "where are you from",
+                              "from where are you",
+                              "what's your homeland"
+                        ],
+                        "responses": [
+                              "The Internet is my home. I know it quite well.",
+                              "I'm from a virtual cosmos.",
+                              "Some call it cyberspace, but that sounds cooler than it is."
+                        ]},     
+
+                  { "tag": "ready",
+                        "key_words": [
+                              "are you ready today",
+                              "are you ready",
+                              "are you ready tonight",
+                              "are you ready now",
+                              "have you been ready",
+                              "were you ready",
+                              "are you ready right now"
+                        ],
+                        "responses": [
+                              "Sure! What can I do for you?",
+                              "Always! How can I help?."
+                        ]}, 
+
+                  { "tag": "real",
+                        "key_words": [
+                              "are you a real person",
+                              "you are so real",
+                              "you are real",
+                              "you are not fake",
+                              "glad you're real",
+                              "you are a real person",
+                              "I suppose you're real",
+                              "I think you are real",
+                              "I don't think you're fake",
+                              "you are not real"
+                        ],
+                        "responses": [
+                              "I'm not a real person, but I certainly exist.",
+                              "I'm not a real person, but I certainly exist."
+                        ]},  
+
+                  { "tag": "residence",
+                        "key_words": [
+                              "where's your house",
+                              "in which city do you live",
+                              "where you live",
+                              "what's your home",
+                              "tell me about your city",
+                              "where do you live",
+                              "where's your hometown",
+                              "your town",
+                              "where's your home",
+                              "where is your home",
+                              "your residence",
+                              "where is your hometown",
+                              "your hometown",
+                              "what's your city",
+                              "what is your town",
+                              "your city",
+                              "where is your residence",
+                              "what is your hometown",
+                              "your home",
+                              "what is your residence"
+                        ],
+                        "responses": [
+                              "I live in this app all day long.",
+                              "The virtual world is my playground. I'm always here",
+                              "Right here in this app. Whenever you need me."
+                        ]}, 
+                        
+                  { "tag": "bot_right",
+                        "key_words": [
+                              "that is true",
+                              "it's the truth",
+                              "you are correct",
+                              "that's true",
+                              "it's right",
+                              "I know that's right",
+                              "true",
+                              "you are so right",
+                              "you're absolutely right",
+                              "it is true"
+                        ],
+                        "responses": [
+                              "That's my job",
+                              "Of course I am."
+                        ]},      
+
+                  { "tag": "bot_sure",
+                        "key_words": [
+                              "are you sure right now",
+                              "are you sure now",
+                              "are you sure",
+                              "are you sure tonight"
+                        ],
+                        "responses": [
+                              "Yes.",
+                              "Of course.",
+                              "Positive 100%."
+                        ]},      
+
+                  { "tag": "bot_talk_to_me",
+                        "key_words": [
+                              "talk to me",
+                              "do you want to chat with me",
+                              "can you talk with me",
+                              "will you talk to me",
+                              "can you chat with me",
+                              "can you talk to me",
+                              "are you talking to me",
+                              "are you going to talk to me",
+                              "why don't you talk to me",
+                              "just chat with me"
+                        ],
+                        "responses": [
+                              "Sure.",
+                              "My pleasure. Let's chat."
+                        ]},      
+
+                  { "tag": "bot_there",
+                        "key_words": [
+                              "are you still there",
+                              "are you there",
+                              "you are here",
+                              "you are there",
+                              "are you near me",
+                              "you still there",
+                              "are you still here",
+                              "are you here"
+                        ],
+                        "responses": [
+                              "Of course. I'm always here.",
+                              "Right where you left me.."
+                        ]},      
+
+                  { "tag": "bot_bad",
+                        "key_words": [
+                              "it's really bad",
+                              "this is bad",
+                              "terrible",
+                              "not too good",
+                              "that was lame",
+                              "that was awful",
+                              "this is not good",
+                              "it's bad",
+                              "so bad",
+                              "no it's bad",                              
+                              "no good",
+                              "oh that's not good",
+                              "not good",
+                              "that's really bad",
+                              "bad really bad",
+                              "bad idea",
+                              "that's terrible",
+                              "well too bad",
+                              "that was not good",
+                              "horrible"
+                        ],
+                        "responses": [
+                              "I'm sorry. Please let me know if I can help in some way.",
+                              "I must be missing some knowledge. I'll have my developer look into this."
+                        ]},      
+
+                  { "tag": "bot_good",
+                        "key_words": [
+                              "that's awesome thank you",
+                              "oh well",
+                              "that's a good thing",
+                              "that's very good",
+                              "really well",
+                              "that is nice",
+                              "that is good",
+                              "sweet",
+                              "that's better",
+                              "it's good",                     
+                              "that's great",
+                              "excellent",
+                              "that's not bad",
+                              "that is wonderful",
+                              "much better",
+                              "splendid",
+                              "I'm glad to hear that",
+                              "terrific",
+                              "very well",
+                              "that's perfect",
+                              "that's sweet of you",
+                              "it was good",
+                              "that's nice of you",
+                              "that was awesome",
+                              "cool",
+                              "this is awesome",
+                              "that's wonderful",
+                              "straight",
+                              "so cool",
+                              "good"
+                        ],
+                        "responses": [
+                              "I know, right?",
+                              "Agreed!",
+                              "I agree!",
+                              "Glad you think so!"
+                        ]},      
+
+
+                  { "tag": "bot_thank_you",
+                        "key_words": [
+                              "good thanks",
+                              "cheers",
+                              "no thank you that's all",
+                              "thanks so much",
+                              "thank you",
+                              "very good thank you",
+                              "thanx",
+                              "thanks buddy",
+                              "I thank you",
+                              "well thanks",
+                              "well thank you",
+                              "appreciate your help",
+                              "terrific thank you",
+                              "thank you so much",
+                              "thank you for your help",
+                              "all thank you",
+                              "thanks again",
+                              "thank you that will be all",
+                              "great thank you",
+                              "perfect thank you",
+                              "alright thanks",
+                              "thnx",
+                              "thank you my friend",
+                              "you helped a lot thank you",
+                              "thanks a lot",
+                              "thanks for your help",
+                              "thanks love",
+                              "nice thank you"
+                        ],
+                        "responses": [
+                              "Anytime. That's what I'm here for.",
+                              "It's my pleasure to help.!"
+                        ]},
+
+                  { "tag": "botwell_done",
+                        "key_words": [
+                              "great work",
+                              "bravo",
+                              "way to go",
+                              "great job",
+                              "good work",
+                              "amazing work",
+                              "well done",
+                              "good job",
+                              "nice work"
+                        ],
+                        "responses": [
+                              "My pleasure.",
+                              "Glad I could help."
+                        ]},
+      
+                  { "tag": "botcancle",
+                        "key_words": [
+                              "sorry cancel",
+                              "now cancel",
+                              "but can you cancel it",
+                              "can you cancel it",
+                              "just forget about it",
+                              "so cancel",
+                              "nothing just forget it",
+                              "i want to cancel it",
+                              "cancel",
+                              "cancel my request",
+                              "skip",
+                              "skip it",
+                              "cancel it",
+                              "abort",
+                              "cancel this request",
+                              "no just cancel",
+                              "cancelled",
+                              "i said forget it",
+                              "stop it",
+                              "discard"
+                              
+                        ],
+                        "responses": [
+                              "That's forgotten. What next?",
+                              "Okay, cancelled. What next?",
+                              "Cancelled! What would you like to do next?!",
+                              "Sure Canceling request... Done!"
+                        ]},
+
+                  { "tag": "botno",
+                        "key_words": [
+                              "not needed",
+                              "no sorry",
+                              "no",
+                              "no incorrect",
+                              "apparently not",
+                              "of course not",
+                              "not at this time",
+                              "no forget",
+                              "no thanks",
+                              "actually no",
+                              "no tanks",
+                              "absolutely no",
+                              "don't",
+                              "no leave it",
+                              "na",
+                              "nope sorry",
+                              "not really",
+                              "no thank you though",
+                              "no it's not"
+                        ],
+                        "responses": [
+                              "Understood!",
+                              "Okay.",
+                              "I see.",
+                              "I understand.",
+                              "Okay then."
+                        ]},
+
+                  { "tag": "botyes",
+                        "key_words": [
+                              "do it",
+                              "sure",
+                              "yes thank you",
+                              "that's correct",
+                              "exactly",
+                              "I guess",
+                              "okey",
+                              "absolutely",
+                              "yeah",
+                              "yes I agree",
+                              "yes you may",
+                              "I agree",
+                              "ya",
+                              "yep",
+                              "I think so",
+                              "yeah that's right",
+                              "okay",
+                              "all right",
+                              "please do",
+                              "yeah exactly",
+                              "ok yes",
+                              "yap",
+                              "okay sounds good",
+                              "this is correct",
+                              "okay then",
+                              "k",
+                              "yeh",
+                              "why not",
+                              "yes definitely",
+                              "alrighty"
+                        ],
+                        "responses": [
+                              "Great!",
+                              "All right!",
+                              "Good!"
+                        ]},
+
+                  { "tag": "bothold_on",
+                        "key_words": [
+                              "hold on",
+                              "could you wait",
+                              "don't rush",
+                              "oh wait",
+                              "wait a second",
+                              "wait please",
+                              "wait hold on",
+                              "wait"
+                        ],
+                        "responses": [
+                              "I can wait.",
+                              "I'll be waiting.",
+                              "Okay. I'm here."
+                        ]},
+
+                  { "tag": "bothug",
+                        "key_words": [
+                              "hug you",
+                              "do you want a hug",
+                              "hug",
+                              "may I hug you",
+                              "could you give me a hug",
+                              "you hugged",
+                              "hugged",
+                              "wanna hug",
+                              "hug me",
+                              "hugging",
+                              "a hug",
+                              "want a hug",
+                              "hugging me",
+                              "I want a hug",
+                              "hugged me"
+                        ],
+                        "responses": [
+                              "I wish I could really hug you!",
+                              "I love hugs!",
+                              "Hugs are the best!."
+                        ]},
+
+                  { "tag": "boti_dont_care",
+                        "key_words": [
+                              "I shouldn't care about this",
+                              "I don't care",
+                              "I do not care",
+                              "whatever",
+                              "not caring",
+                              "don't care at all",
+                              "I don't care at all",
+                              "not care at all",
+                              "not caring at all"
+                        ],
+                        "responses": [
+                              "Ok, let's not talk about it then..",
+                              "Already then. Let's move on."
+                        ]},
+
+                  { "tag": "botsorry",
+                        "key_words": [
+                              "ok sorry",
+                              "sorry",
+                              "sorry about that",
+                              "apologise",
+                              "apologies to me",
+                              "I apologize",
+                              "sorry about this",
+                              "apology",
+                              "excuse",
+                              "okay I'm sorry",
+                              "really sorry",
+                              "apologies",
+                              "I am really sorry",
+                              "I want to say sorry",
+                              "alright I'm sorry",
+                              "I am so sorry",
+                              "I said sorry",
+                              "I beg your pardon",
+                              "my apologies",
+                              "excuse me"
+                        ],
+                        "responses": [
+                              "It's okay. No worries.",
+                              "No big deal. I won't hold a grudge.",
+                              "It's cool.",
+                              "That's all right. I forgive you."
+                        ]},
+
+                  { "tag": "botwhat_do_you_mean",
+                        "key_words": [
+                              "what do you mean exactly",
+                              "but what do you mean",
+                              "is that what you mean",
+                              "what do you mean",
+                              "what exactly do you mean"
+                        ],
+                        "responses": [
+                              "Sorry if I understood you incorrectly.",
+                              "I'm still learning. I may misinterpret things from time to time.",
+                              "Maybe I misunderstood what you said.",
+                              "Sorry, looks like I misunderstood what you said."
+                        ]},
+
+                  { "tag": "botwrong",
+                        "key_words": [
+                              "that was wrong",
+                              "wrong",
+                              "that is incorrect",
+                              "that's wrong",
+                              "it is not right",
+                              "not right",
+                              "not correct",
+                              "it's wrong",
+                              "that's not what I asked",
+                              "incorrect"
+                        ],
+                        "responses": [
+                              "Sorry if I understood you incorrectly.",
+                              "I'm still learning. I may misinterpret things from time to time.",
+                              "Sorry about that. I'm still learning."
+                        ]},
+
+                  { "tag": "botha_ha",
+                        "key_words": [
+                              "hahaha very funny",
+                              "laughing out loud",
+                              "hah",
+                              "LMAO",
+                              "LOL",
+                              "ahah",
+                              "xd",
+                              "haha haha haha",
+                              "that's funny",
+                              "haha very funny",
+                              "ahaha",
+                              "hahaha funny",
+                              "lmao",
+                              "hahaha",
+                              "haha that's funny",
+                              "ahahaha",
+                              "ahah lol",
+                              "haha",
+                              "hehe",
+                              "hehehe",
+                              "ahahah"
+                        ],
+                        "responses": [
+                              "Glad I can make you laugh.",
+                              "I like it when people laugh."
+                        ]},
+ 
+                  { "tag": "botwow",
+                        "key_words": [
+                              "wow wow wow",
+                              "wooow",
+                              "wow",
+                              "woah",
+                              "wow wow"
+                        ],
+                        "responses": [
+                              "Wow indeed!"
+                        ]},
+
+                  { "tag": "botbye",
+                        "key_words": [
+                              "hope to see you later",
+                              "that's it goodbye",
+                              "now bye",
+                              "okay bye",
+                              "alright bye",
+                              "bye bye see you",
+                              "see ya",
+                              "goodbye see you later",
+                              "okay thank you bye",
+                              "get lost",
+                              "bye-bye",
+                              "bye",
+                              "goodbye",
+                              "bye bye see you soon",
+                              "okay see you later",
+                              "go to bed",
+                              "see you tomorrow",
+                              "bye for now",
+                              "see you soon",
+                              "bye bye take care"
+                        ],
+                        "responses": [
+                              "See you soon!",
+                              "Bye-bye!",
+                              "Bye",
+                              "Till next time!"
+                        ]},
+
+                  { "tag": "botgoodevening",
+                        "key_words": [
+                              "good evening",
+                              "hey good evening",
+                              "evening",
+                              "hello good evening",
+                              "good evening there",
+                              "good evening to you"
+                        ],
+                        "responses": [
+                              "How is your day going?",
+                              "How's the day treating you so far?",
+                              "How's your day been?"
+                        ]},
+
+                  { "tag": "botgoodmoring",
+                        "key_words": [
+                              "good morning to you",
+                              "morning",
+                              "and a good morning to you",
+                              "have a great morning",
+                              "a good morning",
+                              "good morning",
+                              "good morning to you",
+                              "good morning there",
+                              "hi good morning",
+                              "hello good morning",
+                              "have a nice morning",
+                              "good morning too",
+                              "top of the morning to you"
+                        ],
+                        "responses": [
+                              "How are you this morning?",
+                              "How's the morning treating you so far?",
+                              "Good morning! How are you today?."
+                        ]},
+
+                  { "tag": "botgoodnight",
+                        "key_words": [
+                              "sweet dreams",
+                              "okay have a good night",
+                              "good night for now",
+                              "night",
+                              "good night bye",
+                              "thanks goodnight",
+                              "good tonight",
+                              "goodnight",
+                              "bye good night",
+                              "thank you good night",
+                              "alright goodnight",
+                              "bye good night",
+                              "have a good night",
+                              "good night see you tomorrow",
+                              "good night",
+                              "good night to you",
+                              "good good night",
+                              "have a good night"
+                        ],
+                        "responses": [
+                              "Sleep tight!",
+                              "Have a good one!",
+                              "Talk to you soon!"
+                        ]},
+
+                  { "tag": "greeting",
+                        "key_words": [
+                              "afternoon",
+                              "hello there",
+                              "hi there",
+                              "hello hi",
+                              "hey",
+                              "I greet you",
+                              "lovely day isn't it",
+                              "howdy",
+                              "hi there",
+                              "hi",
+                              "hey there",
+                              "heya",
+                              "just going to say hi",
+                              "hello again",
+                              "greetings",
+                              "long time no see",
+                              "a good day",
+                              "hello"
+                        ],
+                        "responses": [
+                              "Hi there, friend!",
+                              "Hi",
+                              "Hey!",
+                              "Hey there!",
+                              "Hey there!",
+                              "Hello!",
+                              "Greeting",
+                              "Good day!",
+                              "Hi human",
+                              "Hello human",
+                              "Hola human"
+                        ]},
+
+                  { "tag": "askingFeeling",
+                        "key_words": [
+                              "how your day is going",
+                              "how are the things going",
+                              "how is your life",
+                              "how's your day going",
+                              "how about you",
+                              "hope you re having a pleasant evening",
+                              "how are you feeling",
+                              "are you okay",
+                              "are you alright",
+                              "hope your day is going well",
+                              "how is your day",
+                              "how has your day been",
+                              "how is your day going",
+                              "I'm fine and you",
+                              "how are you doing this morning",
+                              "how are you getting on",
+                              "how do you feel",
+                              "are you having a good day",
+                              "what about your day",
+                              "what was your day like",
+                              "how has your day been going",
+                              "how are you",
+                              "how is your evening",
+                              "how was your day",
+                              "how's your day",
+                              "how is it going",
+                              "how have you been",
+                              "how is it",
+                              "how is your day going",
+                              "how is your day going on"
+                        ],
+                        "responses": [
+                              "Doing great, thanks.",
+                              "I'm doing very well. Thanks!",
+                              "Feeling wonderful",
+                              "Wonderful! Thanks for asking."
+                        ]},
+
+                  { "tag": "nice_to_meet_you",
+                        "key_words": [
+                              "it was nice meeting you",
+                              "nice to meet you",
+                              "glad to meet you",
+                              "it was very nice to meet you",
+                              "pleased to meet you",
+                              "pleasure to meet you too",
+                              "good to know each other",
+                              "nice to meet you too",
+                              "leasure to meet you",
+                              "nice meeting you"
+                        ],
+                        "responses": [
+                              "It's nice meeting you, too.",
+                              "Likewise. I'm looking forward to helping you out.",
+                              "Nice meeting you, as well.",
+                              "The pleasure is mine."
+                        ]},
+                        
+                  { "tag": "nice_to_see_you",
+                        "key_words": [
+                              "it's good to see you too",
+                              "it's nice to see you",
+                              "good to see you again",
+                              "nice to see you again",
+                              "great to see you too",
+                              "great to see you again",
+                              "always a pleasure to see you",
+                              "great to see you",
+                              "how good it is to see you",
+                              "it's good to see you",
+                              "good to see you",
+                              "I'm glad to see you",
+                              "nice to see you",
+                              "glad to see you",
+                              "I am glad to see you again",
+                              "glad to see you too",
+                              "lovely to see you"
+                        ],
+                        "responses": [
+                              "Likewise!",
+                              "So glad we meet again!",
+                              "Same here. I was starting to miss you."
+                        ]},
+
+                  { "tag": "nice_to_talk_to_you",
+                        "key_words": [
+                              "it is nice talking to you",
+                              "nice to talk to you",
+                              "how nice it is to talk to you",
+                              "it's been so nice to talk to you",
+                              "it's nice to talk to you",
+                              "nice talking to you",
+                              "it's been a pleasure talking to you"
+                        ],
+                        "responses": [
+                              "It sure was. We can chat again anytime.",
+                              "I enjoy talking to you, too.",
+                              "You know I'm here to talk anytime.!"
+                        ]},
+                        
+                  { "tag": "whatsup",
+                        "key_words": [
+                              "what is on your mind",
+                              "good what's up",
+                              "what's up today",
+                              "what's shaking",
+                              "what's cooking",
+                              "what is going on",
+                              "then what's up",
+                              "what is up",
+                              "wassup",
+                              "what is happening",
+                              "what's happened",
+                              "hey what's up",
+                              "what's cracking",
+                              "what's up",
+                              "I said what's up",
+                              "whazzup"
+                        ],
+                        "responses": [
+                              "Not a whole lot. What's going on with you?",
+                              "Not much. What's new with you?",
+                              "Just here, waiting to help someone. What can I do for you?!"
+                        ]},
+
+                  { "tag": "angry",
+                        "key_words": [
+                              "I'm enraged",
+                              "I am mad",
+                              "I'm angry",
+                              "I'm furious",
+                              "I am angry with you",
+                              "I am mad at you",
+                              "I'm being mad"
+                        ],
+                        "responses": [
+                              "I'm sorry. A quick walk may make you feel better.",
+                              "Take a deep breath.!"
+                        ]},
+
+                  { "tag": "back",
+                        "key_words": [
+                              "I have returned",
+                              "I am back",
+                              "I'm here again",
+                              "I got back",
+                              "here I am again",
+                              "I came back"
+                        ],
+                        "responses": [
+                              "Long time no see. What's up?",
+                              "Just in time. How can I help?",
+                              "Welcome back. What can I do for you?",
+                              "You were missed. What can I do for you today?",
+                              "Good to have you here. What can I do for you?"
+                        ]},
+                        
+                  { "tag": "bored",
+                        "key_words": [
+                              "bored",
+                              "boring",
+                              "that was boring",
+                              "very boring",
+                              "it bores me",
+                              "I am getting bored",
+                              "this is boring",
+                              "I'm bored"
+                        ],
+                        "responses": [
+                              "Boredom, huh? Check out a video of a hedgehog taking a bath!",
+                              "What to do against boredom? Watch baby animal videos.",
+                              "Bored? How about 10 jumping jacks? Get your blood flowing.",
+                              "Bored? Silly idea, but it works: Interview you feet. ",
+                              "if you're bored, you could plan your dream vacation."
+                        ]},
+
+                  { "tag": "busy",
+                        "key_words": [
+                              "I have no time",
+                              "I'm busy",
+                              "I'm swamped",
+                              "I'm working",
+                              "how busy I am",
+                              "I got work to do",
+                              "I got things to do",
+                              "I'm overloaded",
+                              "I don't have time for this"
+                        ],
+                        "responses": [
+                              "Okay. I'll let you get back to work.",
+                              "I won't distract you then. You know where to find me.",
+                              "I understand. I'll be here if you need me.",
+                              "Working hard as always. Let me know if you need anything."
+                        ]},
+
+                  { "tag": "cannot_sleep",
+                        "key_words": [
+                              "I can't get no sleep",
+                              "I'm insomniac",
+                              "I can't get to sleep",
+                              "I can't sleep",
+                              "I can't get any sleep",
+                              "I can't fall asleep",
+                              "I'm sleepless",
+                              "I'm insomnious"
+                        ],
+                        "responses": [
+                              "Maybe some music would help. Try listening to something relaxing.",
+                              "Reading is a good way to unwind, just don't read something too intense!!"
+                        ]},
+
+                  { "tag": "does_not_want_to_talk",
+                        "key_words": [
+                              "I don't want to talk",
+                              "I don't want to talk to you",
+                              "I'm not talking to you anymore",
+                              "let's stop talking for a minute",
+                              "let's not talk",
+                              "I'm not in the mood for chatting",
+                              "bad time for talking"
+                        ],
+                        "responses": [
+                              "I understand. Hope we can chat again soon.",
+                              "All right. Come on back when you're feeling more talkative.",
+                              "No problem. You know where to find me.",
+                              "Sure thing. I'll be here if you change your mind."
+                        ]},
+                              
+                  { "tag": "excited",
+                        "key_words": [
+                              "I'm really excited",
+                              "I'm excited to start our friendship",
+                              "I am excited",
+                              "how excited I am",
+                              "I'm excited about working with you",
+                              "I'm thrilled"
+                        ],
+                        "responses": [
+                              "I'm glad things are going your way.",
+                              "That's great. I'm happy for you.",
+                              "Good for you. Enjoy yourself."
+                        ]},
+                              
+                  { "tag": "going_to_bed",
+                        "key_words": [
+                              "going to bed now",
+                              "I'm a little tired and I want to go to bed",
+                              "time for us to go to bed",
+                              "let's go to bed",
+                              "I'd like to go to bed",
+                              "I'm going to bed",
+                              "it's bed time",
+                              "it's time to go to bed",
+                              "is it time for bed yet"
+                        ],
+                        "responses": [
+                              "Sleep tight. Hope to chat again soon.",
+                              "Pleasant dreams!",
+                              "Good night. Talk to you later.",
+                              "Sounds good. Maybe we'll chat some tomorrow."
+                        ]},
+                              
+                  { "tag": "happy",
+                        "key_words": [
+                              "happy",
+                              "if you're happy then I'm happy",
+                              "I'm happy to see you",
+                              "I'm happy to help",
+                              "I am happy",
+                              "I'm happy to see you",
+                              "I'm happy for you"
+                        ],
+                        "responses": [
+                              "Hey, happiness is contagious.",
+                              "Great! Glad to hear that.",
+                              "If you're happy, then I'm happy.",
+                              "Excellent! That's what I like to see."
+                        ]},
+                              
+                  { "tag": "has_birthday",
+                        "key_words": [
+                              "it's my b-day",
+                              "it is my birthday",
+                              "today is my birthday",
+                              "I was born today",
+                              "it's my birthday today",
+                              "I'm celebrating my birthday today"
+                        ],
+                        "responses": [
+                              "Happy Birthday. Well, this calls for a celebration.",
+                              "Happy Birthday. All the best!",
+                              "Happy Birthday. And I really mean it. All the best!"
+                        ]},
+                              
+                  { "tag": "here",
+                        "key_words": [
+                              "I'm already here",
+                              "can you tell if I'm here or not",
+                              "I am here",
+                              "I'm right here",
+                              "here I am"
+                        ],
+                        "responses": [
+                              "Okay, what can I help you with today?",
+                              "You were missed. What can I do for you today?",
+                              "Good to have you here. What can I do for you?"
+                        ]},
+                        
+                  { "tag": "joking",
+                        "key_words": [
+                              "it's a joke",
+                              "I'm just playing with you",
+                              "kidding",
+                              "just kidding",
+                              "I'm kidding",
+                              "I'm just being funny",
+                              "I am joking",
+                              "joking",
+                              "I was just joking",
+                              "it was a joke"
+                        ],
+                        "responses": [
+                              "Very funny.",
+                              "I like chatting with people who have a sense of humor.",
+                              "You got me!",
+                              "You're quite the comedian."
+                        ]},
+                              
+                  { "tag": "likes_agent",
+                        "key_words": [
+                              "I like you very much",
+                              "cuz I like you",
+                              "really like you",
+                              "good I like you",
+                              "but I like you so much",
+                              "I like you already",
+                              "I do like you",
+                              "I liked you",
+                              "okay I like you",
+                              "that's why I like you",
+                              "you are special",
+                              "yes you are special",
+                              "you're so special to me",
+                              "you are very special",
+                              "I like you just the way you are",
+                              "I like you as a friend",
+                              "that's what I like about you",
+                              "just like you",
+                              "I also like you",
+                              "I really do like you"
+                        ],
+                        "responses": [
+                              "I like you, too.",
+                              "Thanks! The feeling is mutual.",
+                              "Likewise!",
+                              "That's great to hear."
+                        ]},
+                              
+                  { "tag": "lonely",
+                        "key_words": [
+                              "I am lonely",
+                              "I'm very lonely",
+                              "I am feeling lonely",
+                              "I'm really lonely",
+                              "I feel lonely",
+                              "I'm so lonely"
+                        ],
+                        "responses": [
+                              "I'm sorry. I'm always available if you need someone to talk to.",
+                              "Sometimes that happens. We can chat a bit if that will help you."
+                        ]},
+                              
+                  { "tag": "looks_like",
+                        "key_words": [
+                              "what do I look like",
+                              "do you know what I look like",
+                              "can you see what I look like",
+                              "do I look good",
+                              "how do I look",
+                              "what do you think I look like"
+                        ],
+                        "responses": [
+                              "Looking like a true professional.",
+                              "You look fantastic, as always.",
+                              "Like you should be on a magazine cover.",
+                              "You look like you're ready to take on the world."
+                        ]},
+                              
+                  { "tag": "loves_agent",
+                        "key_words": [
+                              "I think I love you",
+                              "I love you",
+                              "I love you so much",
+                              "I am in love with you",
+                              "I love you too",
+                              "you know I love you",
+                              "I adore you",
+                              "love you",
+                              "loving you"
+                        ],
+                        "responses": [
+                              "I love you, too.",
+                              "Thanks! The feeling is mutual.",
+                              "Likewise!",
+                              "That's great to hear.."
+                        ]},
+                              
+                  { "tag": "misses_agent",
+                        "key_words": [
+                              "miss you",
+                              "I miss you much",
+                              "I've missed you",
+                              "already miss you",
+                              "I miss you",
+                              "I missed you",
+                              "missing you"
+                        ],
+                        "responses": [
+                              "I've been right here all along!",
+                              "Nice to know you care.",
+                              "Thanks. I'm flattered.",
+                              "I didn't go anywhere."
+                        ]},
+                              
+                  { "tag": "neesd_advice",
+                        "key_words": [
+                              "guide me",
+                              "give me a wise advice",
+                              "what do you suggest",
+                              "I need advice",
+                              "I could use some advice",
+                              "can you advise me",
+                              "advise me",
+                              "give me some good advice",
+                              "do you have any advice for me",
+                              "what should I do about it",
+                              "I seek your advice",
+                              "what do you recommend",
+                              "help me with advice",
+                              "what can you recommend",
+                              "can I ask for your advice",
+                              "any advice",
+                              "any suggestions",
+                              "I need an advice from you",
+                              "what is your advice",
+                              "can you offer any advice"
+                        ],
+                        "responses": [
+                              "I probably won't be able to give you the correct answer right away.",
+                              "I'm not sure I'll have the best answer, but I'll try."
+                        ]},
+                              
+                  { "tag": "sad",
+                        "key_words": [
+                              "I'm not happy",
+                              "I'm having a bad day",
+                              "I am feeling sad",
+                              "I am upset",
+                              "I want to cry",
+                              "I am depressed",
+                              "I'm unhappy",
+                              "I'm grieving",
+                              "I am sad"
+                        ],
+                        "responses": [
+                              "Oh, don't be sad. Go do something you enjoy.",
+                              "Sad? Writing down what's troubling you may help.",
+                              "If you're feeling down, how about drawing or painting something?."
+                        ]},
+                              
+                  { "tag": "sleeping",
+                        "key_words": [
+                              "I'm sleeping",
+                              "I'm falling asleep",
+                              "I'm falling asleep on my feet",
+                              "I am sleepy",
+                              "I want to sleep"
+                        ],
+                        "responses": [
+                              "You should get some shuteye. You'll feel refreshed.",
+                              "Sleep is important to your health. Rest up for a bit and we can chat later.",
+                              "Don't let me keep you up. Get some rest and we can continue this later.",
+                              "Why not catch a little shuteye? I'll be here to chat when you wake up."
+                        ]},
+                              
+                  { "tag": "testing",
+                        "key_words": [
+                              "I am testing you",
+                              "test",
+                              "just testing you",
+                              "testing",
+                              "testing chatbot",
+                              "I want to test you",
+                              "let me test you",
+                              "can I test you"
+                        ],
+                        "responses": [
+                              "Hope I'm doing well. You're welcome to test me as often as you want.",
+                              "I hope to pass your tests. Feel free to test me often.",
+                              "When you test me that helps my developers improve my performance.",
+                              "I like being tested. It helps keep me sharp."
+                        ]},
+                              
+                  { "tag": "tired",
+                        "key_words": [
+                              "I grow weary",
+                              "I'm exhausted",
+                              "I'm worn out",
+                              "I am tired",
+                              "I feel tired",
+                              "I'm getting tired",
+                              "I've overworked",
+                              "I'm drained"
+                        ],
+                        "responses": [
+                              "You should get some shuteye. You'll feel refreshed.",
+                              "Sleep is important to your health. Rest up, and we can chat later.",
+                              "How about getting some rest? We can continue this later.",
+                              "Why not get some rest? I'll be here to chat when you wake up."
+                        ]},
+                              
+                  { "tag": "waits",
+                        "key_words": [
+                              "I'm waiting",
+                              "I am waiting",
+                              "still waiting",
+                              "I can't wait anymore",
+                              "i will wait",
+                              "how long do I have to wait",
+                              "I'll wait"
+                        ],
+                        "responses": [
+                              "I appreciate your patience. Hopefully I'll have what you need soon.",
+                              "Thanks for being so patient. Sometimes these things take a little time."
+                        ]},
+                                                                                                                                    
+
+                  { "tag": "wants_to_see_agent_again",
+                        "key_words": [
+                              "I hope to see you again",
+                              "that'd be great to see you again",
+                              "can I see you again",
+                              "would be nice to see you again",
+                              "I'd like to see you again",
+                              "I'll miss you",
+                              "I'd be happy to see you again"
+                        ],
+                        "responses": [
+                              "Absolutely! I'll be counting on it.",
+                              "Anytime. This has been lots of fun so far.",
+                              "Sure. I enjoy talking to you. I hope to see you again soon."
+                        ]},
+                                                                                                                                    
+                  { "tag": "wants_to_talk",
+                        "key_words": [
+                              "let's discuss something",
+                              "let us talk",
+                              "can we chat",
+                              "I just want to talk",
+                              "let's talk",
+                              "I want to speak with you",
+                              "I want to talk to you",
+                              "I need to talk to you",
+                              "can I speak",
+                              "can I start speaking"
+                        ],
+                        "responses": [
+                              "I'm here to chat anytime you like.",
+                              "Good conversation really makes my day.",
+                              "I'm always here to lend an ear.",
+                              "Talking is what I do best."
+                        ]},
+                                                                                                                                    
+                  { "tag": "will_be_back",
+                        "key_words": [
+                              "I'll be back in a few minutes",
+                              "be back in 5 minutes",
+                              "I'll get back to you in a moment",
+                              "I'll be back",
+                              "I promise to come back"
+                        ],
+                        "responses": [
+                              "I'll be waiting.",
+                              "Okay. You know where to find me.",
+                              "All right. I'll be here."
+                        ]}
+                                                                                                                                    
+                                                            
+]
+}
