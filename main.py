@@ -63,7 +63,9 @@ def chatBot(inputUser):
 
 app = FastAPI(title='Companion chat-bot system')
 
-origins = ['http://localhost:3000', '']
+origins = [
+    'http://localhost:3000', 'https://pisciumweb.web.app'
+    ]
 
 app.add_middleware(CORSMiddleware,
                    allow_origins=origins,
